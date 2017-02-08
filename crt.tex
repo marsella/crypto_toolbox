@@ -1,10 +1,21 @@
 \documentclass{article}
+\usepackage{includes}
 
-\begin{document}
 \title{Chinese Remainder Theorem}
-\date{}
+\begin{document}
 \maketitle
 
+For a set of relatively prime numbers $p_1 \dots p_k$, a set of equivalencies
+\begin{align*}
+x \equiv a_1 \mod p_1 \\
+x \equiv a_2 \mod p_2 \\
+\vdots \\
+x \equiv a_k \mod p_k \\
+\end{align*}
+
+implies that there exists a unique solution $x \mod \prod p_i$.
+
+\paragraph{Proof}
 
 
 
